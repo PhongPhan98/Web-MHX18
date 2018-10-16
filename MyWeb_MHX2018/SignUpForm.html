@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SignUpForm</title>
+</head>
+
+<body>
+    <ul>
+    <li><a  href="ground.html">TRANG CHỦ</a></li>
+    <li><a href="dsls.html">DANH SÁCH LIỆT SĨ</a></li>
+    <li><a href="LoginForm.html" >ĐĂNG NHẬP</a></li>
+    <li><a class="active">ĐĂNG KÍ</a></li>
+    <li><a>GIỚI THIỆU</a></li>
+  </ul>
+  
+  <link rel = "stylesheet" type = "text/css" href ="SignUpForm.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<form action="action_page.php" style="border:1px solid #ccc">
+
+        <div class="container">
+          <h1 style="color: aliceblue">ĐĂNG KÍ</h1>
+          <label for="email" style="color: aliceblue"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <label for="psw" style="color: aliceblue"><b>Mật Khẩu</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <label for="psw-repeat" style="color: aliceblue"><b>Nhập Lại Mật Khẩu</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+          <label style="color: aliceblue">
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+          <div class="clearfix">
+            <button type="button" class="cancelbtn" style="color: aliceblue">HỦY</button>
+            <button type="submit" class="signupbtn" style="color: aliceblue">ĐĂNG KÍ</button>
+          </div>
+        </div>
+        
+</form>
+</body>
+</html>
